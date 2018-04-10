@@ -1,0 +1,26 @@
+.dataAnalysis {
+  font-size: 16px;
+  font-family: Arial;
+  float: left;
+  width: 79%;
+}
+.dataText {
+  margin: 0px;
+  padding-bottom: 4px;
+  margin-top: 1px;
+}
+hr {
+  margin: 0px;
+}
+
+.graphContainer {
+  width: 97.8%;
+  border: 1px solid black;
+  padding: 1%;
+  margin-top: 10px;
+  text-align: center;
+}
+LineGraph {
+  height: 200px;
+  display: none;
+}

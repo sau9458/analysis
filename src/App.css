@@ -1,0 +1,71 @@
+.body{
+  padding: 25px;
+}
+.App{
+  padding: 5px;
+}
+.container{
+  width:20%;
+  cursor: pointer;
+  border-collapse:collapse;
+  display: table;
+  float: left;
+  margin-right: 5px;
+}
+.column{
+  display:table-row;
+}
+.Data{
+  display: table-cell;
+   border: 1px solid #2a9fcd;
+   width: 20%;
+   font-size:12px;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   padding-left: 20px;
+   font-size: 12px;
+   font-family: Arial;
+   padding-right: 5px;
+   margin: 0px;
+   font-weight:bold;
+   background-color: #E7EBFF;
+   padding-top: 5px;
+   padding-bottom: 5px;
+}
+.Weather{
+   display: table-cell;
+   border: 1px solid #2a9fcd;
+   width: 20%;
+   font-size:12px;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   padding-left: 20px;
+   font-size: 12px;
+   font-family: Arial;
+   padding-right: 5px;
+   margin: 0px;
+   font-weight:bold;
+   background-color: #E7EBFF;
+   padding-top: 5px;
+   padding-bottom: 5px;
+}
+
+.cell{
+  display: table-cell;
+   border: 1px solid #c0c0c0;
+   width: 20%;
+   font-size:12px;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   padding-left: 20px;
+   font-size: 12px;
+   font-family: Arial;
+   padding-right: 5px;
+   margin: 0px;
+   padding-top: 5px;
+   background-color: white;
+   padding-bottom: 5px;
+}

@@ -1,0 +1,15 @@
+.weatherAnalysis {
+  font-size: 16px;
+  font-family: Arial;
+}
+.weatherText {
+  margin: 0px;
+  padding-bottom: 4px;
+  margin-top: 1px;
+}
+hr {
+  margin: 0px;
+  background-color: #000000;
+  height: 0.5px !important;
+  border: 0px; 
+}
