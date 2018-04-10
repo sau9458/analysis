@@ -4,7 +4,7 @@ body {
 .App {
   padding: 5px;
 }
-.container {
+.contain {
   width: 20%;
   cursor: pointer;
   border-collapse: collapse;
