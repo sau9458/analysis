@@ -27,14 +27,12 @@ class App extends Component {
     this.props.history.push("/weatherAnalysis");
   }
   render() {
-    console.log(this.props);
-
     return (
-      <div className="container" style={{ float: "left" }}>
-        <div className="row" onClick={this.changeColorData}>
+      <div className="contain">
+        <div className="rows" onClick={this.changeColorData}>
           <p className={this.state.classData}>Data Analysis</p>
         </div>
-        <div className="row" onClick={this.changeColorWeather}>
+        <div className="rows" onClick={this.changeColorWeather}>
           <p className={this.state.classWeather}>Today Weather</p>
         </div>
       </div>
