@@ -1,9 +1,9 @@
-import { combineReducers } from 'redux';
-import getDetails from './reducer/reducer'
-const rootReducer=()=>{
-combineReducers({
-    getDetails,
+import { combineReducers } from "redux";
+import getDetails from "./reducer/reducer";
+const rootReducer = () => {
+  combineReducers({
+    getDetails
   });
-}
+};
 
-  export default rootReducer;
+export default rootReducer;

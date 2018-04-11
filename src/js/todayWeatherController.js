@@ -79,33 +79,33 @@ class WeatherAnalysis extends React.Component {
         <hr noshade />
         <div className="weatherConatiner">
       {this.state.errormsg?<div className="error">Not found city</div>:null}
-          <div class="row">
-            <div class="col-sm-4">
-              <div class="form-group">
-                <label for="usr">City:</label>
+          <div className="row">
+            <div className="col-sm-4">
+              <div className="form-group">
+                <label >City:</label>
                 <input
                   type="text"
-                  class="form-control"
+                  className="form-control"
                   value={this.state.city}
                   onChange={this.handleCityChange}
                 />
               </div>
             </div>
-            <div class="col-sm-5">
-              <div class="form-group ">
-                <label for="usr">Country Code:</label>
+            <div className="col-sm-5">
+              <div className="form-group ">
+                <label >Country Code:</label>
                 <input
                   type="text"
-                  class="form-control code"
+                  className="form-control code"
                   value={this.state.country}
                   onChange={this.handleCountryChange}
                 />
               </div>
             </div>
-            <div class="col-sm-3">
+            <div className="col-sm-3">
               <button
                 type="button"
-                class="btn btn-primary"
+                className="btn btn-primary"
                 onClick={e => this.onSubmitHandle(e)}
               >
                 Search
